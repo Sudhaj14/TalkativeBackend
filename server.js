@@ -44,7 +44,7 @@ app.use(notFound);
 app.use(errorHandler);
 
 const PORT = 5000;
-console.log("PORT :",PORT)
+console.log("PORT 1  :",PORT)
 const server = app.listen(
   PORT,
   console.log(`Server running on PORT ${PORT}...`.yellow.bold)
